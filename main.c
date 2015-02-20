@@ -33,11 +33,12 @@ int main(int argc, char** argv) {
             minima=array[i];
     }
     
+    capo=0;
     for(i=0;i<N;i++){
         if(array[i]>=REPUBBLICA)
             capo++;
     }
-    
+  
     printf("Età media: %f\n",media);
     printf("Età massima: %d\n",massima);
     printf("Età minima: %d\n",minima);
